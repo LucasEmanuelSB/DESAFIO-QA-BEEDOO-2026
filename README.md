@@ -33,8 +33,7 @@ Para a criação dos cenários, utilizei a técnica de **Particionamento de Equi
 ---
 
 ## 3. Links do Desafio
-
-* **Planilha de Casos de Teste (Google Sheets):** [INSIRA O SEU LINK AQUI]
+* **Planilha de Casos de Teste (Google Sheets):** https://docs.google.com/spreadsheets/d/1ow77hsKEvhophui2LcDQf2oLZqpzlv77L3yRWAhznxQ/edit?usp=sharing
 * **Evidências de Execução (Prints/Vídeos):** [INSIRA O LINK DA PASTA NO DRIVE AQUI]
 
 ---
