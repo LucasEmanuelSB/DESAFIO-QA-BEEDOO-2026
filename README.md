@@ -103,4 +103,4 @@ Para a criação dos cenários, utilizei a técnica de **Particionamento de Equi
 
 Neste desafio, utilizei a IA como uma ferramenta de **apoio consultivo**. 
 * **Como utilizei:** Auxílio na estruturação da documentação e brainstorming de cenários de teste negativos.
-* **Análise Crítica:** Refinei as sugestões da IA para garantir que os cenários estivessem alinhados exatamente com os campos visíveis na aplicação analisada, descartando sugestões genéricas e focando na lógica condicional de "Endereço/Link" que identifiquei manualmente.
+* **Análise Crítica:** Refinei as sugestões da IA para garantir que os cenários estivessem alinhados exatamente com os campos visíveis na aplicação analisada, descartando sugestões genéricas.
