@@ -15,10 +15,11 @@ A aplicação consiste em um sistema de gerenciamento de cursos (CRUD - Create, 
 * **Exclusão:** Funcionalidade de remoção de registros da base de dados/interface.
 
 ### Pontos Críticos Identificados
-1.  **Regra de Negócio Condicional:** A alternância entre os campos "Endereço" e "Link de Inscrição" é um ponto de alta probabilidade de erro de UI/UX.
-2.  **Integridade das Datas:** A lógica que impede uma data de término ser anterior à de início é vital para a consistência dos dados.
-3.  **Persistência:** Garantir que os dados não sejam perdidos após um refresh (F5).
-4.  **Feedback ao Usuário:** O sistema precisa comunicar claramente se uma ação (cadastro ou exclusão) foi concluída com sucesso.
+1. **Cadastro e exclusão: Devem estar funcionando perfeitamente pois são os fluxos principais do sistema.
+2.  **Regra de Negócio Condicional:** A alternância entre os campos "Endereço" e "Link de Inscrição" é um ponto de alta probabilidade de erro de UI/UX.
+3.  **Integridade das Datas:** A lógica que impede uma data de término ser anterior à de início é vital para a consistência dos dados.
+4.  **Persistência:** Garantir que os dados não sejam perdidos após um refresh (F5).
+5.  **Feedback ao Usuário:** O sistema precisa comunicar claramente se uma ação (cadastro ou exclusão) foi concluída com sucesso.
 
 ---
 
