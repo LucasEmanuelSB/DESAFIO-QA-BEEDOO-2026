@@ -27,7 +27,7 @@ A aplicação consiste em um sistema de gerenciamento de cursos (CRUD - Create, 
 
 Para a criação dos cenários, utilizei a técnica de **Particionamento de Equivalência** e **Análise de Valor Limite**.
 
-* **Cenários Positivos:** Focados em garantir que o "Caminho Feliz" (Happy Path) atenda aos requisitos básicos de funcionamento.
+* **Cenários Positivos:** Focados em garantir que o "Caminho Feliz" atenda aos requisitos básicos de funcionamento.
 * **Cenários Negativos:** Estruturados para testar a resiliência do sistema contra entradas inválidas (datas impossíveis, campos vazios e formatos de URL incorretos).
 * **Testes de Interface (GUI):** Verificação da visibilidade dinâmica dos campos conforme a modalidade escolhida.
 
