@@ -38,7 +38,7 @@ Para a criação dos cenários, utilizei a técnica de **Particionamento de Equi
 
 ## 4. Relatórios de Bug Encontrados
 
-### [BUG-001] Falha Funcional no Botão de Exclusão (CT-12)
+### [BUG-001] Falha Funcional no Botão de Exclusão (CN12)
 * **Severidade:** Crítica
 * **Descrição:** Ao clicar no botão "Excluir Curso" em um card no dashboard, o sistema não executa nenhuma ação e o curso permanece listado.
 * **Passos para reproduzir:**
@@ -48,7 +48,7 @@ Para a criação dos cenários, utilizei a técnica de **Particionamento de Equi
 * **Resultado Atual:** O card permanece na tela e não há alteração na interface.
 * **Resultado Esperado:** O curso deve ser removido da listagem imediatamente após a confirmação.
 
-### [BUG-002] Ausência de Validação em Campos Obrigatórios (CT-03)
+### [BUG-002] Ausência de Validação em Campos Obrigatórios (CN03)
 * **Severidade:** Alta
 * **Descrição:** O sistema permite o envio do formulário de cadastro sem que nenhum campo tenha sido preenchido.
 * **Passos para reproduzir:**
@@ -57,7 +57,7 @@ Para a criação dos cenários, utilizei a técnica de **Particionamento de Equi
 * **Resultado Atual:** Um card vazio ou incompleto é gerado e exibido no dashboard.
 * **Resultado Esperado:** O sistema deve exibir alertas de "Campo obrigatório" e impedir a criação do registro.
 
-### [BUG-003] Falha na Lógica de Cronologia de Datas (CT-07)
+### [BUG-003] Falha na Lógica de Cronologia de Datas (CN07)
 * **Severidade:** Média
 * **Descrição:** O sistema permite o cadastro de cursos onde a "Data de Fim" é configurada para um dia anterior à "Data de Início".
 * **Passos para reproduzir:**
@@ -67,7 +67,7 @@ Para a criação dos cenários, utilizei a técnica de **Particionamento de Equi
 * **Resultado Atual:** O curso é cadastrado com sucesso apresentando datas logicamente impossíveis.
 * **Resultado Esperado:** O sistema deve validar o período e exibir uma mensagem de erro impeditiva.
 
-### [BUG-004] Falha de Limite de Caracteres - Nome e Descrição (CT-04 e CT-05)
+### [BUG-004] Falha de Limite de Caracteres - Nome e Descrição (CN04 e CN05)
 * **Severidade:** Baixa (Interface)
 * **Descrição:** Os campos de Nome e Descrição não possuem trava de caracteres, permitindo que textos muito longos quebrem a estrutura visual do card.
 * **Passos para reproduzir:**
@@ -76,7 +76,7 @@ Para a criação dos cenários, utilizei a técnica de **Particionamento de Equi
 * **Resultado Atual:** O texto transborda os limites visuais do cartão, prejudicando a legibilidade.
 * **Resultado Esperado:** O sistema deve limitar a entrada de caracteres no formulário para preservar o layout.
 
-### [BUG-005] Aceitação de Valores Inválidos no Campo de Vagas (CT-09)
+### [BUG-005] Aceitação de Valores Inválidos no Campo de Vagas (CN09)
 * **Severidade:** Média
 * **Descrição:** O campo destinado ao número de vagas aceita números negativos, o que não condiz com a regra de negócio.
 * **Passos para reproduzir:**
@@ -85,7 +85,7 @@ Para a criação dos cenários, utilizei a técnica de **Particionamento de Equi
 * **Resultado Atual:** O sistema aceita o valor e o exibe negativamente no dashboard.
 * **Resultado Esperado:** O campo deve validar a entrada e permitir apenas números inteiros positivos.
 
-### [BUG-006] Ausência de Validação de Formato de URL (CT-10 e CT-13)
+### [BUG-006] Ausência de Validação de Formato de URL (CN10 e CN13)
 * **Severidade:** Média
 * **Descrição:** Os campos de "URL da Capa" e "Link de Inscrição" não validam se o conteúdo inserido é de fato um link funcional.
 * **Passos para reproduzir:**
